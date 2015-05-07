@@ -26,7 +26,7 @@ func main() {
   fmt.Printf("%s\n", contents)
   fmt.Printf("%x\n", filehasher.Sum(nil))
 
-  //print standard input and its hash
+  //print standard input and its hash ("echo foo | go run md5checksum.go")
   fmt.Printf("%s\n", input)
   fmt.Printf("%x\n", inputhasher.Sum(nil))
 
